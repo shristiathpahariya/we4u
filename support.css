@@ -91,7 +91,7 @@ main {
 .support-options {
   display: flex;
   flex-wrap: wrap;
-  gap: 55px;
+  gap: 50px;
   margin-top: 20px;
 }
 

@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffdc6a;
+  color: #333;
+}
+
+header {
+  background-color: #0e0fed;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 110px;
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 2;
+  margin-right: 2%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 35px;
+}
+
+.login-btn,
+.get-started-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.get-started-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+main {
+  display: flex;
+  gap: 160px;
+  padding: 40px;
+}
+
+.support-section {
+  width: 50%;
+  padding-left: 15%;
+}
+
+.support-section h1 {
+  font-size: 32px;
+  color: #d95353;
+  max-width: 50%;
+  padding-bottom: 8%;
+}
+
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  margin-top: 20px;
+}
+
+.option {
+  width: 45%;
+  padding: 20px;
+  text-align: center;
+}
+
+.option img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.option h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #d95353;
+  text-align: start;
+}
+
+.option p {
+  font-size: 16px;
+  color: #555;
+  text-align: start;
+}
+
+.emergency-help {
+  width: 35%;
+  padding: 30px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.emergency-help h2 {
+  color: #0e0fed;
+  font-size: 24px;
+  max-width: 30%;
+  margin-bottom: 5%;
+  word-spacing: 6px;
+}
+
+.emergency-help p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 9%;
+  word-spacing: 4px;
+}
+
+.resources {
+  margin-top: 20px;
+  background-color: #b2cae2;
+  padding: 19px;
+}
+
+.resources .location {
+  font-size: 18px;
+
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.resources ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resources ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.resources ul li span {
+  color: #d95353;
+}
+
+.chat-support {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.chat-support img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.chat-support p {
+  font-size: 16px;
+}

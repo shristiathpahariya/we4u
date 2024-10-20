@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles & Advice About Mental Health</title>
+    <link rel="stylesheet" href="resources.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="images/logo.png"
+          alt="Logo Icon"
+          onclick="window.location.href='homepage.html'"
+        />
+      </div>
+      <div class="page-title">
+        <h2>Articles & Advice About Mental Health</h2>
+      </div>
+    </header>
+
+    <section class="carousel-container">
+      <div class="carousel-nav left-arrow" id="prev">
+        <span>&lt;</span>
+      </div>
+      <div class="carousel-content">
+        <div
+          class="carousel-slide active"
+          data-slide="1"
+          data-background="url('images/carousel1.jpg')"
+        >
+          <div class="article-info">
+            <h3>Learn how to choose between a psychologist and a therapist.</h3>
+            <a href="#" class="read-more-btn">Read more</a>
+          </div>
+          <div class="article-image">
+            <img src="images/carousel1.jpg" alt="Person Image" />
+          </div>
+        </div>
+        <div
+          class="carousel-slide"
+          data-slide="2"
+          data-background="url('images/carousel2.jpg')"
+        >
+          <div class="article-info">
+            <h3>Why mental health is important for well-being?</h3>
+            <a href="#" class="read-more-btn">Read more</a>
+          </div>
+          <div class="article-image">
+            <img src="images/carousel2.jpg" alt="Person Image" />
+          </div>
+        </div>
+        <div
+          class="carousel-slide"
+          data-slide="3"
+          data-background="url('images/carousel3.jpg')"
+        >
+          <div class="article-info">
+            <h3>How to manage stress in a fast-paced world?</h3>
+            <a href="#" class="read-more-btn">Read more</a>
+          </div>
+          <div class="article-image">
+            <img src="images/carousel3.jpg" alt="Person Image" />
+          </div>
+        </div>
+      </div>
+      <div class="carousel-nav right-arrow" id="next">
+        <span>&gt;</span>
+      </div>
+    </section>
+    <div class="carousel-dots">
+      <span class="dot active" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+      <span class="dot" data-slide="3"></span>
+    </div>
+
+    <div class="container">
+      <section class="main-content">
+        <div class="section-title">Depression</div>
+        <div class="article-row">
+          <div class="article-card">
+            <img src="images/depression1.jpg" alt="Depression Image 1" />
+            <h4>Understanding And Managing Relocation Depression</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/carousel1.jpg" alt="Depression Image 2" />
+            <h4>Depression During Pregnancy</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/depression3.jpg" alt="Depression Image 3" />
+            <h4>Why Am I So Depressed After Working Out?</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/depression2.jpg" alt="Depression Image 4" />
+            <h4>How Do People With Autism Experience Depression?</h4>
+          </div>
+        </div>
+
+        <div class="section-title">Anxiety</div>
+        <div class="article-row">
+          <div class="article-card">
+            <img src="images/anxiety1.jpg" alt="Anxiety Image 1" />
+            <h4>Understanding Anxiety Relocation</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/anxiety2.jpg" alt="Anxiety Image 2" />
+            <h4>Anxiety During Pregnancy</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/anxiety3.jpg" alt="Anxiety Image 3" />
+            <h4>Anxiety After Working Out?</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/anxiety4.jpg" alt="Anxiety Image 4" />
+            <h4>How Do People With Autism Experience Anxiety?</h4>
+          </div>
+        </div>
+
+        <div class="section-title">Therapy</div>
+        <div class="article-row">
+          <div class="article-card">
+            <img src="images/therapy1.jpg" alt="Therapy Image 1" />
+            <h4>Understanding Therapy For Depression</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/therapy2.jpg" alt="Therapy Image 2" />
+            <h4>Therapy During Pregnancy</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/therapy3.jpg" alt="Therapy Image 3" />
+            <h4>Why Therapy Is Important After Working Out?</h4>
+          </div>
+          <div class="article-card">
+            <img src="images/therapy4.jpg" alt="Therapy Image 4" />
+            <h4>How Do People With Autism Experience Therapy?</h4>
+          </div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <button>Search</button>
+        </div>
+        <div class="cta">
+          <img src="images/getstarted.jpg" alt="Get Started Image" />
+          <p>Get the support you need from one of our therapists</p>
+          <button>Get Started</button>
+        </div>
+        <hr class="line" />
+        <div class="categories">
+          <h3>Top Categories</h3>
+          <ul>
+            <li>General</li>
+            <li>Therapy</li>
+            <li>Relationships</li>
+            <li>Depression</li>
+            <li>Current Events</li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Sign Up</h3>
+          <p>Helpful mental health resources delivered to your inbox</p>
+          <input type="email" placeholder="Email" />
+          <button>Sign Up</button>
+        </div>
+      </aside>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

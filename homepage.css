@@ -1,0 +1,261 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffdc6a;
+  color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 1rem;
+}
+
+/* Navbar Styles */
+header {
+  width: 100%;
+  background-color: #0e0fed;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 110px;
+}
+
+/* Align logo to the left */
+.logo {
+  flex-grow: 1;
+}
+
+/* Align nav to the right */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 2;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.login-btn {
+  width: 6%;
+  height: 8%;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #193d3b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+.get-started-btn {
+  width: 8%;
+  height: 6%;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #193d3b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background-color: #ffdc6a;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  color: #0e0fed;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #5a5a70;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.hero-content .learn-more-btn {
+  background-color: #fff;
+  color: #193d3b;
+}
+
+.learn-more-btn {
+  background-color: #ffffff00;
+  color: #fff;
+  width: 9em;
+  height: 4em;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+  padding-right: 0.5em;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+.learn-more-btn img {
+  width: 1.6em;
+  margin: -0.2em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+
+.learn-more-btn:hover img {
+  transform: translateX(5px);
+}
+
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  gap: 15px;
+}
+
+.hero-images img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* About Us Section */
+.about-us {
+  background-color: #0e0fed;
+  padding: 90px;
+  text-align: center;
+  height: 30px;
+  border-radius: 50px 50px 50px 50px;
+  height: 50%;
+}
+
+.about-us h2 {
+  font-size: 30px;
+  color: #ffdc6a;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Therapists Section */
+.therapists {
+  padding-left: 90px;
+  background-color: #ffdc6a;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-left: 6%;
+}
+
+.therapists h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #0e0fed;
+  margin-right: 14%;
+}
+
+.therapist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+.therapist-grid img {
+  width: 60%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.get-started-therapist {
+  padding: 15px 30px;
+  margin-top: 4%;
+  margin-right: 14%;
+  border: none;
+  background-color: #0e0fed;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer Layout */
+.footer-container {
+  background-color: #0e0fed;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+}
+
+.footer-section {
+  flex-basis: 20%;
+}
+
+.footer-section ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer-social-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.footer-social a img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}

@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,7 +12,6 @@ h3 {
   padding: 0;
 }
 
-/* Header */
 header {
   background-color: #0e0fed;
   color: #e0ede6;
@@ -54,11 +52,9 @@ header {
   background-color: #8eb07d;
 }
 
-/* Navigation Arrows */
 .carousel-nav {
   width: 40px;
   height: 40px;
-  /* background-color: #a6d197; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,7 +63,7 @@ header {
   position: absolute;
   top: 15%;
   transform: translateY(-50%);
-  z-index: 3; /* Ensure arrows are on top of everything */
+  z-index: 3;
 }
 
 .left-arrow {
@@ -83,7 +79,6 @@ header {
   color: rgb(166, 165, 165);
 }
 
-/* Carousel Dots */
 .carousel-dots {
   display: flex;
   justify-content: center;
@@ -104,7 +99,6 @@ header {
   background-color: #0e0fed;
 }
 
-/* Carousel Section */
 .carousel-container {
   background-color: #fce9e6;
   display: flex;
@@ -112,11 +106,11 @@ header {
   align-items: center;
   padding: 80px;
   position: relative;
-  overflow: hidden; /* Hide overflow for sliding effect */
+  overflow: hidden;
   height: 250px;
   background-size: cover;
   background-position: center;
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
 }
 
 .carousel-container::before {
@@ -126,17 +120,17 @@ header {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: inherit; /* Inherit background image */
+  background-image: inherit;
   background-size: cover;
   background-position: center;
-  filter: blur(5px); /* Apply blur effect */
-  z-index: 1; /* Make sure it's behind content */
+  filter: blur(5px);
+  z-index: 1;
 }
 
 .carousel-content,
 .carousel-nav {
   position: relative;
-  z-index: 2; /* Ensure content is on top */
+  z-index: 2;
 }
 
 .carousel-content {
@@ -148,14 +142,14 @@ header {
 }
 
 .carousel-slide {
-  display: none; /* Hide inactive slides */
+  display: none;
   flex-basis: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
 .carousel-slide.active {
-  display: flex; /* Show the active slide */
+  display: flex;
 }
 
 .article-info {
@@ -188,6 +182,8 @@ header {
   font-size: 22px;
   margin-bottom: 30px;
   margin-left: 50px;
+  font-weight: bold;
+  color: #0e0fed;
 }
 
 .article-row {
@@ -198,29 +194,32 @@ header {
 }
 
 .article-card {
-  width: 40%;
-  background-color: #d9d9ed;
-  padding: 10px;
+  width: 44%;
+  background-color: #d1d1f3;
+  padding: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
   text-align: center;
   border-radius: 10px;
   display: inline-flex;
-  height: auto;
+  height: 60%;
 }
 
 .article-card img {
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
+  max-width: 50%;
+  max-height: 70%;
+  align-content: center;
 }
 
 .article-card h4 {
   margin: 10px 0;
   font-size: 16px;
-  color: rgb(63, 62, 62);
+  color: rgb(0, 0, 0);
   font-weight: normal;
-  /* text-align: justify; */
+  text-align: start;
   padding: 20px;
 }
 
@@ -299,7 +298,7 @@ header {
 }
 
 .newsletter input {
-  width: 70%;
+  width: 65%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -314,4 +313,5 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 0.7em;
 }

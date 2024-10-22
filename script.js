@@ -20,12 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     function showNextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length; // Loop back to the first slide
+      currentSlide = (currentSlide + 1) % slides.length;
       updateSlide(currentSlide);
     }
   
     function showPrevSlide() {
-      currentSlide = (currentSlide - 1 + slides.length) % slides.length; // Loop back to the last slide
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
       updateSlide(currentSlide);
     }
   
